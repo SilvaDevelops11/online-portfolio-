@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - SilvaDevelops</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            flex: 1; /* Allows main to grow and push the footer to the bottom */
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            margin-top: 20px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: relative;
+            bottom: 0; /* Keeps the footer at the bottom of the page */
+        }
+
+        .animated-ad {
+            width: 100%;
+            max-width: 500px; /* Adjust size as needed */
+        }
+
+        /* Media queries for responsiveness */
+        @media (max-width: 1024px) {
+            main {
+                padding: 20px 10px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                text-align: center;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+            main {
+                padding: 10px;
+            }
+            footer {
+                padding: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> MY Resume </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="sidebar">
+            <!-- sidebar content here -->
+            <h3>A more professional About Me</h3>
+            <p>Punctual and Motivated IT Professional with experience in customer service and food preparation, leveraging technical skills and attention to detail in fast-paced environments. Currently pursuing a Cert 4 in ICT at RMIT University while working part-time at KFC, gaining valuable teamwork, problem-solving, and communication skills.</p>
+            <h3>Contact</h3>
+            <p>Email: alvisgordon3@gmail.com</p>
+            <p>Phone: unavailable</p>
+            <img src="images/IMG_0485.JPG" alt="older photo of me 2022">
+            <img src="images/IMG_0559.jpeg" alt="photo of me and my son 9th of augest 2024">
+
+        </div>
+        <div class="content">
+            <section class="resume">
+                <h2>professional endeavors</h2>
+                <div class="resume-item">
+                    <h3>Education</h3>
+                    <ul>
+                        <li>Footscray High School - Year 9 - 2020</li>
+                        <li>RMIT University - Cert 4 in ICT - 2024-present</li>
+                    </ul>
+                    <h3>Skills earned at RMIT University</h3>
+                    <ul>
+                        <li>Advanced networking and security principles</li>
+                        <li>Database management and data analytics</li>
+                        <li>Cloud computing and virtualization technologies</li>
+                        <li>Advanced web development techniques</li>
+                        <li>IT project management with a focus on agile methodologies</li>
+                        <li>Enhanced problem-solving and critical thinking skills in IT contexts</li>
+                    </ul>
+                </div>
+                <div class="resume-item">
+                    <h3>Experience</h3>
+                    <div class="experience">
+                        <div class="job">
+                            <div class="job-info">
+                                <p>Hungry Jacks - Back of House Crew - March 2022 – Jan 2023</p>
+                                <h3>Skills earned</h3>
+                                <ul>
+                                    <li>Performed shift change tasks each day to keep store efficient and neat.</li>
+                                    <li>Promoted customer loyalty by efficiently handling food and service complaints.</li>
+                                    <li>Trained and supervised new kitchen staff members, ensuring smooth and efficient operation during high-volume periods.</li>
+                                    <li>Scanned shelves, fridges, and freezers for expired stock and discarded outdated or spoiled items.</li>
+                                    <li>Prepared recipe ingredients by washing, peeling, cutting, and measuring.</li>
+                                    <li>Prepared and cooked approximately 150+ food items daily, ensuring timely and accurate order preparation.</li>
+                                    <li>Maintained effective supply levels by counting and monitoring food stock and dry goods.</li>
+                                    <li>Checked completed orders for accuracy and bagged meals for easy carrying.</li>
+                                    <li>Maintained clean, sanitized, and well-organized food preparation zones.</li>
+                                    <li>Strong knowledge of food safety and sanitation practices.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="job">
+                            <div class="job-info">
+                                <p>KFC Sunshine - Customer Service Host - Jan 2023 – Present</p>
+                                <h3>Skills earned</h3>
+                                <ul>
+                                    <li>Managed customer inquiries and complaints in a professional manner.</li>
+                                    <li>Provided customers with information on promotions, products, and services.</li>
+                                    <li>Assisted customers with menu choices and provided recommendations based on individual preferences.</li>
+                                    <li>Processed customer orders and payments in a timely manner.</li>
+                                    <li>Prepared and served food and beverages to customers.</li>
+                                    <li>Ensured the cleanliness and organization of the dining area.</li>
+                                    <li>Assisted with food preparation and cooking as needed.</li>
+                                    <li>Managed the drive-thru window and took orders from customers in their vehicles.</li>
+                                    <li>Assisted with inventory management and restocking of supplies.</li>
+                                    <li>Followed all food safety and sanitation guidelines.</li>
+                                    <li>Handle high-pressure situations with ease, maintaining composure and delivering consistent results.</li>
+                                    <li>Collaborate with team members to ensure smooth operations and timely food preparation.</li>
+                                    <li>Utilize problem-solving skills to address issues in real-time, ensuring customer satisfaction.</li>
+                                    <li>Enhance teamwork and communication skills through active participation in team meetings and training sessions.</li>
+                                    <li>Maintain a clean and organized workspace, adhering to strict hygiene and safety standards.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2020 Alvis Gordon</p>
+    </footer>
+</body>
+</html>
